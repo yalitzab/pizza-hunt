@@ -1,5 +1,6 @@
 const { Pizza } = require('../models');
 
+// Create, Read, Update, Delete 
 const pizzaController = {
     // get all pizzas
     getAllPizza(req, res) {
